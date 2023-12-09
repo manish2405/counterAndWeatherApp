@@ -1,0 +1,36 @@
+.weather-app {
+  display: flex;
+}
+
+.left-panel {
+  margin: 20px;
+  width: 30%;
+  padding: 20px;
+  border: 2px solid #ccc;
+}
+
+.right-panel {
+  width: 60%;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+}
+
+.location-search{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+
+  input{
+    width: 90%;
+    border: none;
+    box-shadow: 13px 13px 0px -10px #ccc, -13px 13px 0px -10px #ccc;
+    outline: none;
+    font-size: 20px;
+    background: none;
+  }
+
+  .location{
+    width: 80%;
+  }
+}

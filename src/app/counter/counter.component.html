@@ -1,0 +1,10 @@
+<div>
+  <button (click)="addCounter()">Add Counter</button>
+  <button (click)="resetCounters()">Reset Counters</button>
+  <div *ngFor="let counter of counters; let i = index" class="counter-line">
+    <span>Count: {{ counter.count }}</span>
+    <button (click)="incrementCounter(i)">Increment</button>
+    <button (click)="decrementCounter(i)">Decrement</button>
+    <button (click)="deleteCounter(i)">Delete</button>
+  </div>
+</div>
